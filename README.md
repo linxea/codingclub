@@ -1,1 +1,1 @@
-# CB
+# Coding CluB
