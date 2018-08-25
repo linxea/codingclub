@@ -56,8 +56,19 @@
     }
 
     img {
-      width: 100%;
-      max-width: 500px;
+      height: 1080px;
+      width: 1080px;
+      object-fit: none;
+      object-position: 0 0;
+      transform: scale(0.4);
+    }
+
+    .smile {
+      object-position: 100% 100%;
+    }
+
+    .meh {
+      object-position: 0 0;
     }
 
     .scrollable {
@@ -71,7 +82,7 @@
 <body>
   <div class="background-static">
     <div class="image-wrapper">
-      <img src="./images/happy.gif">
+      <img class="smile" src="./images/face.gif">
     </div>
   </div>
 
@@ -83,7 +94,7 @@
 
     <div class="background-static">
       <div class="image-wrapper">
-        <img class="smile" src="./images/meh.gif">
+        <img class="meh" src="./images/face.gif">
       </div>
     </div>
   </div>
