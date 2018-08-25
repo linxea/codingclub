@@ -60,7 +60,6 @@
       width: 1080px;
       object-fit: none;
       object-position: 0 0;
-      transform: scale(0.4);
     }
 
     .smile {
@@ -76,13 +75,19 @@
       background: white;
       margin-top: -25vh;
     }
+
+    .small {
+      transform: scale(0.4);
+    }
   </style>
 </head>
 
 <body>
   <div class="background-static">
     <div class="image-wrapper">
-      <img class="smile" src="./images/face.gif">
+      <div class="small">
+        <img class="smile" src="./images/face.gif">
+      </div>
     </div>
   </div>
 
@@ -94,7 +99,9 @@
 
     <div class="background-static">
       <div class="image-wrapper">
-        <img class="meh" src="./images/face.gif">
+        <div class="small">
+          <img class="meh" src="./images/face.gif">
+        </div>
       </div>
     </div>
   </div>
